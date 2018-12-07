@@ -12,7 +12,7 @@ Paging Library<br>
 CustomViews<br>
 AppCompact Library<br>
 Junit tesecases<br>
-Expresso testcases<br>
+Espresso testcases<br>
 
 ScreenShots:
 <p >
