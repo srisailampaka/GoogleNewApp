@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dim_2"
+    android:layout_marginLeft="@dimen/dim_5"
+    android:layout_marginRight="@dimen/dim_5"
+    app:cardCornerRadius="@dimen/dim_5"
+    app:cardElevation="@dimen/dim_5">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim_15"
+        android:layout_marginRight="@dimen/dim_15"
+        android:layout_marginBottom="@dimen/dim_10"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="@dimen/dim_250"
+            android:layout_height="@dimen/dim_250"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <com.news.app.ui.customview.NewsTextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                app:fontName="montserrat_bold"/>
+
+            <com.news.app.ui.customview.NewsTextView
+                android:id="@+id/hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                app:fontName="montserrat_light"/>
+        </LinearLayout>
+
+        <com.news.app.ui.customview.NewsTextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/dim_10"
+            android:textSize="12sp"
+            app:fontName="montserrat_regular"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim_10"
+            android:orientation="horizontal">
+
+            <com.news.app.ui.customview.NewsTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/from"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:fontName="montserrat_bold"/>
+
+            <com.news.app.ui.customview.NewsTextView
+                android:id="@+id/from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dim_2"
+                android:textSize="12sp"
+                app:fontName="montserrat_light"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

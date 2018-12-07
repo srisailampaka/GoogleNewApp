@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_20">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/dim_250"
+        android:layout_height="@dimen/dim_250"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/avatar" />
+
+    <com.news.app.ui.customview.NewsTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_5"
+        app:fontName="montserrat_bold" />
+
+    <com.news.app.ui.customview.NewsTextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textSize="14sp"
+        app:fontName="montserrat_regular" />
+
+
+    <com.news.app.ui.customview.NewsTextView
+        android:id="@+id/publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textSize="14sp"
+        app:fontName="montserrat_light" />
+
+
+    <com.news.app.ui.customview.NewsTextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_5"
+        android:textSize="14sp"
+        app:fontName="montserrat_light" />
+</LinearLayout>

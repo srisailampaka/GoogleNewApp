@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoogleNewsApiApp</string>
+    <string name="loading">Loading…</string>
+    <string name="network_error">Please check the network connection</string>
+    <string name="from">From:</string>
+    <string name="newslist">News List</string>
+    <string name="hrsago">hrs ago</string>
+    <string name="avatar">avatar</string>
+
+    <string name="montserrat_light">montserrat_light</string>
+    <string name="montserrat_bold">montserrat_bold</string>
+    <string name="montserrat_medium">montserrat_medium</string>
+    <string name="montserrat_regular">montserrat_regular</string>
+
+    <string name="news_details">News Details</string>
+</resources>
